@@ -1,0 +1,59 @@
+html {
+    background-image: url("bg.jpg");
+}
+
+.bg{
+    background-color: blanchedalmond;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+.subtitle{
+   text-indent: 0px;
+   color: maroon;
+   text-align: center;
+   font-family: "Tahoma";
+}
+
+.EnumerationSubtitle{
+    margin-left: 62px; 
+    text-indent: 0px; 
+    color: maroon;
+    text-align: justify;
+    font-family: "Tahoma";
+ }
+
+.text{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-indent: 50px;
+    font-family: "Tahoma";
+    text-align: justify;
+}
+
+
+ul.bullets{
+    margin-left: 40px;
+    font-family: "Tahoma";
+}
+
+.aru-picture{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 20%;
+    
+}
+.name{
+    color: maroon;
+    text-align: center;
+    font-family: "Tahoma";
+}
+
+.Enumeration{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
